@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(Rectangle\ 260.jpg);
+}
+.logo{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+h1{
+    position: absolute;
+width: 832px;
+height: 196px;
+left: 206px;
+top: 217px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 34.2805px;
+line-height: 141.9%;
+text-align: center;
+color: #FFFFFF;
+}
+
+/* h2{
+    padding-left: 32%;
+    padding-top: 3%;
+    color: white;
+} */
+
+#explore{
+ display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 19.0447px 13.3313px;
+
+position: relative;
+width: 247.58px;
+height: 61.58px;
+left: 25%;
+top: 23rem;
+
+background: #F9F9F9;
+box-shadow: -6.34824px -6.34824px 12.6965px #FFFFFF, 6.34824px 6.34824px 12.6965px rgba(0, 0, 0, 0.08);
+border-radius: 12.6965px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 44px;
+color: #FDA100;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17.7751px;
+line-height: 133.4%;
+text-decoration: none;
+}
+
+#invest{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 19.0447px 13.3313px;
+
+position: relative;
+width: 247.58px;
+height: 61.58px;
+left: 50%;
+top: 19rem;
+
+background: #FDA100;
+box-shadow: -6.34824px -6.34824px 12.6965px #FFFFFF, 6.34824px 6.34824px 12.6965px rgba(0, 0, 0, 0.08);
+border-radius: 12.6965px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 44px;
+color: white;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17.7751px;
+line-height: 133.4%;
+text-decoration: none;
+}
+
